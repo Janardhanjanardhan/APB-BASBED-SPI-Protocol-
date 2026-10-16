@@ -7,6 +7,7 @@ module shift_register(input pclk,preset_n,ss_i,send_data_i,lsbfe_i,cpha,cpol,
 					  reg [2:0] count,count1,count2,count3;
 					  
 					  assign data_miso_o=(receive_data_i)?temp_reg:8'h00;
+					  //mosi-o 
 					   always@(posedge pclk or negedge preset_n)
 					    begin
 						 if(!preset_n)
@@ -97,7 +98,7 @@ module shift_register(input pclk,preset_n,ss_i,send_data_i,lsbfe_i,cpha,cpol,
 						   end
 						 end
 					 end
-					 
+					 //miso
 					always@(posedge pclk or negedge preset_n)
 					   begin
 					    if(!preset_n)
@@ -125,6 +126,7 @@ module shift_register(input pclk,preset_n,ss_i,send_data_i,lsbfe_i,cpha,cpol,
 								else
 								 begin
 								  count2<=3'b0;
+								  temp_reg<=8'b0;
 								 end
 							   end
 							  else
@@ -138,7 +140,10 @@ module shift_register(input pclk,preset_n,ss_i,send_data_i,lsbfe_i,cpha,cpol,
 								   end
 								 end
 								else
+								 begin
 								 count3<=3'd7;
+								 temp_reg<=8'b0;
+								 end
 							   end
 							 end
 							else
@@ -156,6 +161,7 @@ module shift_register(input pclk,preset_n,ss_i,send_data_i,lsbfe_i,cpha,cpol,
 								else
 								 begin
 								  count2<=3'b0;
+								  temp_reg<=8'b0;
 								 end
 							   end
 							  else
@@ -169,7 +175,10 @@ module shift_register(input pclk,preset_n,ss_i,send_data_i,lsbfe_i,cpha,cpol,
 								   end
 								 end
 								else
+								 begin
 								 count3<=3'd7;
+								 temp_reg<=8'b0;
+								 end
 							   end
 							 end
 						   end
