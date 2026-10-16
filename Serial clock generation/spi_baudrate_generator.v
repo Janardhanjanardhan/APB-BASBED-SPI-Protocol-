@@ -1,4 +1,3 @@
-
 module spi_baud_generator(input pclk,preset_n,spiswai_i,cpol_i,cpha_i,ss_i,
                           input [1:0] spi_mode_i,input [2:0] sppr_i,spr_i,output reg sclk_o,
 						  miso_receive_sck_o,miso_receive_sck0_o,mosi_send_sck_o,mosi_send_sck0_o,
