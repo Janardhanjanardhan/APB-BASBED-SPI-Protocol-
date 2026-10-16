@@ -52,6 +52,17 @@ The design was verified through simulation using Verilog testbenches and wavefor
 
 
 
+---
+
+## Quartus Prime Results
+
+### 1. RTL Schematic
+![Quartus Prime RTL Schematic](https://github.com/Janardhanjaanu/APB-BASBED-SPI-Protocol-/blob/59e5834d5bb2d922587153c58e251e637f64c6e9/Results/Screenshot%20(270).png?raw=true)
+
+### 2. Technology Map Viewer
+![Quartus Prime Technology Map](https://github.com/Janardhanjaanu/APB-BASBED-SPI-Protocol-/blob/59e5834d5bb2d922587153c58e251e637f64c6e9/Results/Screenshot%20(271).png?raw=true)
+
+
 
 
 
