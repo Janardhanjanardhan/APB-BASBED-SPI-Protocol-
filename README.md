@@ -34,7 +34,7 @@ The design was verified through simulation using Verilog testbenches and wavefor
 ## Results
 
 ### 1. APB Read/Write Operation
-![APB Read Write](results/apb_read_write.png)
+![Baudrate_result]([results/apb_read_write.png](https://github.com/Janardhanjaanu/APB-BASBED-SPI-Protocol-/blob/77c12f2110fca997475b8866977301e5dfbf97cb/Results/Screenshot%20(260).png))
 
 ### 2. SPI Data Transmission and Reception
 ![SPI Waveform](results/spi_waveform.png)
