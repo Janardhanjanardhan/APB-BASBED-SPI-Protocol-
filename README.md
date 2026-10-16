@@ -29,5 +29,18 @@ The design was verified through simulation using Verilog testbenches and wavefor
 - Clock generation, data shifting, and control logic implementation.
 - Functional verification using simulation waveforms.
 
+---
+
+## Results
+
+### 1. APB Read/Write Operation
+![APB Read Write](results/apb_read_write.png)
+
+### 2. SPI Data Transmission and Reception
+![SPI Waveform](results/spi_waveform.png)
+
+### 3. Simulation Waveforms
+![Simulation Results](results/simulation.png)
+
 
 
