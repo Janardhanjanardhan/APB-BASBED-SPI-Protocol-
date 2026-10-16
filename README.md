@@ -35,18 +35,23 @@ The design was verified through simulation using Verilog testbenches and wavefor
 ---
 
 ## Simulation Results
+### 1. APB Interface
 
-### 1. Baud Rate Generator
+![APB Interface Simulation 1](https://github.com/Janardhanjaanu/APB-BASBED-SPI-Protocol-/blob/e9dc956582b7815efe69e2414d8dab64100b7d3b/Results/APB%20Interface.png?raw=true)
+
+![APB Interface Simulation 2](https://github.com/Janardhanjaanu/APB-BASBED-SPI-Protocol-/blob/6c6b741bf8f35a64f4673136c6a94c57f1713a28/Results/Screenshot%20(267).png?raw=true)
+
+### 2. Baud Rate Generator
 ![Baud Rate Generator](https://github.com/Janardhanjaanu/APB-BASBED-SPI-Protocol-/blob/e9dc956582b7815efe69e2414d8dab64100b7d3b/Results/Screenshot%20(260).png?raw=true)
 
-### 2. SPI Shift Register
+### 3. SPI Shift Register
 ![SPI Shift Register](https://github.com/Janardhanjaanu/APB-BASBED-SPI-Protocol-/blob/e9dc956582b7815efe69e2414d8dab64100b7d3b/Results/Screenshot%20(261).png?raw=true)
 
-### 3. SPI Slave Select Control
+### 4. SPI Slave Select Control
 ![SPI Slave Select Control](https://github.com/Janardhanjaanu/APB-BASBED-SPI-Protocol-/blob/e9dc956582b7815efe69e2414d8dab64100b7d3b/Results/Screenshot%20(259).png?raw=true)
 
-### 4. APB Interface
-![APB Interface](https://github.com/Janardhanjaanu/APB-BASBED-SPI-Protocol-/blob/e9dc956582b7815efe69e2414d8dab64100b7d3b/Results/APB%20Interface.png?raw=true)
+
+
 
 
 
